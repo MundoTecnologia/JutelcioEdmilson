@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 1, 22);
+}
+
+#Principal {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#Seccao1 {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 3, 53);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 60px;
+    border: none;
+}
+
+#Seccao1 > section {
+    width: 88%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+#Seccao1 h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+#Seccao2 {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opcoes-cadastro {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.opcao {
+    width: 45%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid rgb(3, 3, 53);
+    border-radius: 15px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.opcao:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.opcao h2 {
+    margin-bottom: 15px;
+    color: rgb(3, 3, 53);
+}
+
+.opcao p {
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.opcao button {
+    width: 70%;
+    height: 50px;
+    background-color: rgb(3, 3, 53);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.opcao button:hover {
+    background-color: rgb(5, 5, 80);
+}

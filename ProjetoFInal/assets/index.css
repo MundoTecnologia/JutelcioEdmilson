@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 100vh;
+    background-color:rgb(1, 1, 22);
+}
+header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid white;
+}
+#Cabecalho1{
+    width: 50vh;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#Cabecalho1>h1{
+    color: white;
+}
+#Cabecalho1>h1>span{
+    color:  rgb(8, 8, 160);
+}
+#Cabecalho1>img{
+    width: 20%;
+    height: 50%;
+}
+#Cabecalho2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Cabecalho2 > a{
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+a:hover{
+    transform: scale(1.2);
+    color: rgb(8, 8, 160);
+}
+#Cor{
+    color: rgb(8, 8, 160);
+}
+.cor{
+    color: white;
+}
+#Cabecalho3{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#Cabecalho3>h1{
+    width: 35%;
+    font-size: 100%;
+}
+#Cabecalho3>a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;   
+}
+#Cabecalho3>a:hover{
+    transform: scale(1.2);
+    color: rgb(8, 8, 160);
+}
+#Cabecalho3>button{
+    width: 30%;
+    height: 70%;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(3, 3, 53);
+    transition: all 0.5s ease-in-out;
+}
+main{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#Conteudo{
+    width: 30%;
+    height: 60%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+#Conteudo>h1>span{
+    color:  rgb(8, 8, 160);
+}
+#Conteudo>a{
+    width: 30%;
+    height: 15%;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(3, 3, 53);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+#Conteudo>a:hover{
+    transform: scale(1.1);
+}
+button:hover{
+    transform: scale(1.1);
+}
+#Imagem{
+    width: 40%;
+    height: 70%;    
+}
+
+#Imagem1{
+    width: 100%;
+    height: 100%;
+}

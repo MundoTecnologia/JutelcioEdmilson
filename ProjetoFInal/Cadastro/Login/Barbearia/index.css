@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 1, 22);
+}
+#Principal{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+}
+#Seccao1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(3, 3, 53);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 120px;
+    border-bottom-left-radius: 60px;
+    border: none;
+}
+#Seccao1>section{
+    width: 88%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+}
+#Principal button{
+    width: 50%;
+    height: 8%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#Principal button>a{
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+}
+#Seccao2{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+form{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+form>section{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+form h1{
+    font-size: xx-large;
+}
+form p{
+    color: gray;
+}
+form>input{
+    width: 80%;
+    height: 15%;
+    border: none;
+    transition: all .4s ease-in-out;
+}
+form>input:hover{
+    transform: scale(1.1);
+}
+form>input:focus{
+    outline: none;
+}
+#Seccao2 a{
+    color: black;
+    text-decoration: none;
+}
+#Diferente{
+    background-color: rgb(3, 3, 53);
+    color: white;
+    width: 35%;
+    height: 12%;
+    border-radius: 10px;
+    border: none;
+}

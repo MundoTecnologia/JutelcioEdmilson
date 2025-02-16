@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 1, 22);
+}
+
+#Principal {
+    width: 70%;
+    height: 90%;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#Seccao1 {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 3, 53);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 60px;
+    border: none;
+}
+
+#Seccao1 > section {
+    width: 88%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+}
+
+#Principal button {
+    width: 50%;
+    height: 8%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#Principal button > a {
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+#Seccao2 {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    overflow-y: auto;
+}
+
+form {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+form > section {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form h1 {
+    font-size: xx-large;
+}
+
+form p {
+    color: gray;
+}
+
+form > input, form > select{
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 8px 0;
+    transition: all .4s ease-in-out;
+}
+
+form > input:hover {
+    transform: scale(1.1);
+}
+
+form > input:focus {
+    outline: none;
+    border-color: rgb(3, 3, 53);
+}
+
+#Diferente {
+    background-color: rgb(3, 3, 53);
+    color: white;
+    width: 55%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.contactos{
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    margin: 8px 0;
+    flex-direction: row;
+}
+.contactos > input{
+    width: 40%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 8px 0;
+    transition: all .4s ease-in-out;
+}
+.contactos > input:hover {
+    transform: scale(1.1);
+}
+
+.contactos > input:focus {
+    outline: none;
+    border-color: rgb(3, 3, 53);
+}
+
+.endereco-grupo {
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    margin: 8px 0;
+}
+
+.endereco-grupo input {
+    flex: 1;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.endereco-grupo>section{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.endereco-grupo>section>label{
+    height: 20%;
+}
+.endereco-grupo>section>input{
+    height: 40%;
+}
