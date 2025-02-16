@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(1, 1, 22);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header styles (mantendo o padrão existente) */
+header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid white;
+    padding: 20px 0;
+}
+
+#Cabecalho1{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#Cabecalho1>h1{
+    color: white;
+}
+#Cabecalho1>h1>span{
+    color:  rgb(8, 8, 160);
+}
+#Cabecalho1>img{
+    width: 20%;
+    height: 50%;
+}
+#Cabecalho2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Cabecalho2 > a{
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+a:hover{
+    transform: scale(1.2);
+    color: rgb(8, 8, 160);
+}
+#Cor{
+    color: rgb(8, 8, 160);
+}
+.cor{
+    color: white;
+}
+
+#Cabecalho3 > a{
+    text-decoration: none;
+}
+
+/* Profile styles */
+main {
+    padding: 40px 20px;
+}
+
+.profile-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-info {
+    background-color: rgb(6, 6, 122);
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.profile-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgb(8, 8, 160);
+}
+
+.profile-image button {
+    background-color: rgb(8, 8, 160);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.profile-image button:hover {
+    transform: scale(1.1);
+}
+
+.profile-details {
+    color: white;
+}
+
+.profile-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.services-history {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.services-history h2 {
+    color: rgb(1, 1, 22);
+    margin-bottom: 20px;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.service-card {
+    background-color: rgb(6, 6, 122);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card h3 {
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.service-status {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.status-completed {
+    background-color: #4CAF50;
+}
+
+.status-scheduled {
+    background-color: #2196F3;
+}
