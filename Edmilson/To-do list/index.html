@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 35%;
+            width: 680px;
+            margin: auto;
+            position: absolute;
+            top: 50px;
+            left: 0px;
+            right: 0px;
+            padding: 30px 0px;
+            border-radius: 8px;
+            background-color: #1d2630;
+        }
+        #Novo-conteiner{
+            position: relative;
+            padding: 30px 15px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+        }
+        #Novo-conteiner>input{
+            border-radius: 5px;
+            width: 70%;
+            height: 45px;
+            font-size: 15px;
+            border: 2px solid #d1d3d4;
+            padding: 12px;
+            color: #111;
+            font-weight: 500;
+            position: relative;
+        }
+        #Novo-conteiner>input:focus{
+            outline: none;
+            border-color: #19a68c;
+        }
+        #Novo-conteiner>button{
+            position: relative;
+            float: right;
+            width: 80px;
+            height: 45px;
+            border-radius: 3px;
+            font-weight: 500;
+            font-size: 16px;
+            background-color: #19a68c;
+            color: #fff;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+        #Visualizar{
+            width: 100%;
+            position: relative;
+            margin-top: 40px;
+            background-color: #fff;
+            padding: 30px 20px;
+            border-radius: 5px;
+        }
+        .ver{
+            background-color: #fff;
+            height: 50px;
+            padding: 5px 10px;
+            border-radius: 0px;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            border: 2px solid #d1d3d4;
+        }
+        .ver>span{
+            font-size: 15px;
+            font-weight: 400;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        .ver>button{
+            border: none;
+            background-color: #19a68c;
+            height: 100%;
+            width: 45px;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .completo{
+            text-decoration: line-through;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="conteiner">
+        <div id="Novo-conteiner">
+            <input type="text" name="" id="" placeholder="Digite um nome">
+            <button id="Inserir">Adicionar</button>
+            <div id="Visualizar"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
